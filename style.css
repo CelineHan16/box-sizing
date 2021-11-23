@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  
+  font-family: 'Open Sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  width: 980px;
+  margin: 0 auto; 
+  padding: 0 .5rem;
+}
+
+header {
+  background-image: url(./images/jim.jpg);
+  max-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 100px;
+}
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  display: inline;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+footer {
+  height: 200px;
+  padding: 50px;
+  border-top: 1px solid lightgray;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.links i {
+  font-size: 34px;
+}
+.links p {
+  font-size: 13px;
+  color: rgb(160, 159, 159);
+}
+
+.home-header {
+  background-image: url(./images/photo-1477959858617-67f85cf4f1df.jpg);
+  background-position: center;
+  
+}
+.name {
+  text-align: center;
+  font-size: 18px;
+}
+hr {
+  width: 50px;
+  height: 5px;
+  color: white;
+  background-color: white;
+}
+.name h1 {
+  margin-bottom: 5px;
+}
+.name p {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 16px;
+}
